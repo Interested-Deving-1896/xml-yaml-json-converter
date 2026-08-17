@@ -1,88 +1,91 @@
-# 🌀 XML / YAML / JSON Converter
+# xml-yaml-json-converter
 
-This project provides a serverless API that enables conversion between XML, YAML and JSON data formats. It is built using AWS Lambda and API Gateway, with infrastructure managed via Terraform.
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/xml-yaml-json-converter) [![KDE Eco](https://img.shields.io/badge/KDE%20Eco-certified-brightgreen?logo=kde&logoColor=white&style=flat-square)](https://eco.kde.org/) [![Blue Angel](https://img.shields.io/badge/Blue%20Angel-DE--UZ%20215-0055a4?style=flat-square)](https://www.blauer-engel.de/en/certification/criteria) [![Energy](https://api.green-coding.io/v1/ci/badge/get?repo=Interested-Deving-1896%2Fxml-yaml-json-converter&branch=main&workflow=eco-audit.yml)](https://metrics.green-coding.io/ci-index.html)
 
----
 
-## 📦 Tech Stack
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-* **Language:** TypeScript (Node.js)
-* **Conversion Libraries:**
-  * [`fast-xml-parser`](https://github.com/NaturalIntelligence/fast-xml-parser)
-  * [`js-yaml`](https://github.com/nodeca/js-yaml)
-* **Infrastructure:** AWS Lambda, API Gateway (REST API), Terraform
+## Architecture
 
----
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-## 📋 API Usage
+## Install
 
-### Endpoint
-
-```
-POST /convert?from={source_format}&to={target_format}
-```
-
-### Parameters
-
-- `from`: Source format (json, xml, yaml)
-- `to`: Target format (json, xml, yaml)
-
-### Example Request
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
 ```bash
-curl -X POST "https://api-gateway-url/dev/convert?from=json&to=yaml" \
-  -H "Content-Type: application/json" \
-  -d '{"name": "John", "age": 30}'
+git clone https://github.com/Interested-Deving-1896/xml-yaml-json-converter.git
+cd xml-yaml-json-converter
 ```
 
-### Example Response
+## Usage
 
-```yaml
-name: John
-age: 30
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
+
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/xml-yaml-json-converter`](https://github.com/Interested-Deving-1896/xml-yaml-json-converter) and mirrored through:
+
+```
+Interested-Deving-1896/xml-yaml-json-converter  ──►  OpenOS-Project-OSP/xml-yaml-json-converter  ──►  OpenOS-Project-Ecosystem-OOC/xml-yaml-json-converter
 ```
 
----
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
-## 🛠 Development
+## Contributors
 
-### Prerequisites
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
 
-- Node.js 22+
-- npm
-- AWS CLI (for deployment)
-- Terraform (for infrastructure)
+## Origins
 
-### Installation
+<!-- AI:start:origins -->
+_Original project — no upstream influences recorded._
+<!-- AI:end:origins -->
 
-```bash
-npm install
-```
+## Resources
 
-### Test
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
 
-```bash
-npm test
-```
+## Accessibility
 
----
+<!-- AI:start:accessibility -->
+This repo uses automated accessibility auditing via `check-accessibility.yml`.
 
-## 🚀 Deployment
+Checks include: CODEOWNERS ownership coverage, README screen-reader compatibility,
+WCAG 2.1 AA HTML compliance, audio overview (espeak-ng), and Braille output (liblouis).
 
-### Deploy Infrastructure
 
-```bash
-./deploy.sh
-```
 
-### Destroy Infrastructure
 
-```bash
-./destroy.sh
-```
+Run the [Check Accessibility](https://github.com/Interested-Deving-1896/xml-yaml-json-converter/actions/workflows/check-accessibility.yml)
+workflow to generate the first report and accessibility artifacts.
+See [DOCS/accessibility.md](https://github.com/Interested-Deving-1896/xml-yaml-json-converter/blob/main/DOCS/accessibility.md) for the full reference.
+<!-- AI:end:accessibility -->
 
----
+## License
 
-## 📜 License
-
-This project is licensed under the [MIT License](./LICENSE).
+<!-- AI:start:license -->
+[MIT](https://github.com/Interested-Deving-1896/xml-yaml-json-converter/blob/main/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
